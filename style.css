@@ -46,11 +46,7 @@
 	opacity: 0.3;
 }
 
-.picsizeFirst{
-	width: 100px;
-	height: 100px;
-
-	float: left;
+#picFirst{
 	opacity: 1;
 }
 

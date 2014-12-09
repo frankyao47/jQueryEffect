@@ -1,6 +1,9 @@
 $(document).ready(function(){
 	var point = 0;
 	var pictureNum = 5;
+
+	$(".picsize").first().css({"opacity":"1"});
+
 	var onMouseIn = function(){	//鼠标停留
 			$(".arrow").css({"display":"inline"});
 		};
@@ -14,10 +17,10 @@ $(document).ready(function(){
 		if (point > 0){
 			$(".smallbox").animate({left:"+=500px"}, 300);
 			point--;
-			$("#showbox").children().each(function(){
+			$(".picsize").each(function(){
 				$(this).css({"opacity":"0.3"});
 			});
-			$("#showbox").children().eq(point).css({"opacity":"1"}); //强调
+			$(".picsize").eq(point).css({"opacity":"1"}); //强调
 		}
 	};
 
@@ -26,10 +29,10 @@ $(document).ready(function(){
 		if (point < pictureNum - 1){ 
 			$(".smallbox").animate({left:"-=500px"}, 300);
 			point++;
-			$("#showbox").children().each(function(){
+			$(".picsize").each(function(){
 				$(this).css({"opacity":"0.3"});
 			});
-			$("#showbox").children().eq(point).css({"opacity":"1"}); //强调
+			$(".picsize").eq(point).css({"opacity":"1"}); //强调
 		}
 	};
 
