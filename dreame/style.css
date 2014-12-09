@@ -44,5 +44,25 @@
 	
 	display: block;
 	z-index: 5;
-	opacity: 1;
+	opacity: 0;
+}
+
+.price{
+	position: absolute;
+	background-color: #000;
+
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	
+	width: 50px;
+	margin-top: 10px;	
+	
+	top: 191px;
+	left: 50%;
+	right: 0px;
+	
+	display: block;
+	z-index: 5;
+	opacity: 0;
 }
