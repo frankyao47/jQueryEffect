@@ -30,7 +30,7 @@
 	float: left;
 }
 
-.showbox{
+#showbox{
 	position: absolute;
 	width: 500px;
 	height: 100px;
@@ -38,12 +38,12 @@
 	left: 0px;
 }
 
-
 .picsize{
 	width: 100px;
 	height: 100px;
 
 	float: left;
+	opacity: 0.3;
 }
 
 
