@@ -1,0 +1,38 @@
+.bigbox{
+	position: absolute;
+	width: 500px;
+	height: 300px;
+}
+
+.upperbox{
+	position: relative;
+	width: 500px;
+	height: 200px;
+}
+
+.showbox{
+	width: 100px;
+	height: 100px;
+
+}
+
+.imagebox{
+	width: 500px;
+	height: 100px;
+}
+
+.smallbox{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.picsize{
+	width: 100px;
+	height: 100px;
+}
+
+.bigpicsize{
+	width: 500px;
+	height: 200px;
+}
