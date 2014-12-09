@@ -1,0 +1,19 @@
+.as-panels {
+    position: absolute;
+    width: 960px;
+    height: 443px;
+
+    overflow: hidden;
+}
+
+.as-shadow {
+    box-shadow: -5px 0px 40px 1px #000; /*阴影*/
+}
+
+.as-panel{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+	float: left;
+}
