@@ -4,6 +4,7 @@ $(document).ready(function(){
 	var onMouseIn = function(){
 		var index = parseInt($(this).attr("data-index")); 
 		$(".as-panel").each(function(){
+			$(this).stop(true, false); //停止之前效果(参数二：是否到达最后结果)
 			var curIndex = parseInt($(this).attr("data-index"));
 			var leftOrIn = 64 * curIndex;
 			var right = 960 - (picNum - curIndex) * 64;
@@ -21,6 +22,7 @@ $(document).ready(function(){
 
 	var onMouseOut = function(){
 		$(".as-panel").each(function(){
+			$(this).stop(true, false);
 			var curIndex = parseInt($(this).attr("data-index"));
 			var left = 240*curIndex;
 			$(this).animate({left:left+"px"}, 300);
