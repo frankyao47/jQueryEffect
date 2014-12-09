@@ -5,34 +5,41 @@
 }
 
 .upperbox{
-	position: relative;
-	width: 500px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px; /*框为显示大小*/
 	height: 200px;
+
+	overflow: hidden;
 }
 
-.showbox{
-	width: 100px;
-	height: 100px;
-
-}
-
-.imagebox{
-	width: 500px;
-	height: 100px;
-}
 
 .smallbox{
-	width: 100px;
-	height: 100px;
+	position: absolute;
+	width: 2500px; /*实际大小，随图片数量变化*/
+	height: 200px;
+	top: 0px;
+	left: 0px;
 	float: left;
-}
-
-.picsize{
-	width: 100px;
-	height: 100px;
 }
 
 .bigpicsize{
 	width: 500px;
 	height: 200px;
+}
+
+.showbox{
+	position: absolute;
+	width: 500px;
+	height: 100px;
+	top: 200px;
+	left: 0px;
+}
+
+
+.picsize{
+	width: 100px;
+	height: 100px;
+	float: left;
 }
